@@ -1,0 +1,16 @@
+h1 {
+    color: palevioletred;
+}
+fieldset {
+    display: flex;
+    flex-direction: column;
+
+}
+.mood {
+    display: flex;
+    flex-direction: column;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+}

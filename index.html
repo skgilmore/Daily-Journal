@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>                                           
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Journal</title>
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+
+
+<header>
+
+<h1>Daily Journal</h1>
+<div><img src="./images/logo.png" alt="logo"></div>
+
+</header>
+<body>
+<main class="content">
+    <article class="journal">
+    <!-- Form Collector -->
+    <form action="action.page">
+    
+    <!-- insert date calander -->
+    <fieldset action="form">
+    
+    <label for="journalDate">Entry Date:</label>
+    <input type="date" value="2020-11-01">
+</fieldset>
+<fieldset>
+    <!--insert text box-->
+    <label for="formName">Concepts Covered</label>
+    <input type="text" name="formname" id="formname">
+</fieldset>
+
+    <!-- insert text area -->
+    <!-- insert mood w/ options box -->
+    <div class="moodSelector">
+    <fieldset>
+        <label for="moodSelection">Current Mood</label>
+        <select name="name" id="mood">
+            <option value="happy">Happy</option>
+            <option value="frustrated">Frustrated</option>
+            <option value="challenged">Challenged</option>
+            <option value="accomplished">Accomplished</option>
+  </fieldset>
+  </select>
+    </div>
+   
+ 
+
+    <div class="journalEntry">
+  <fieldset>
+        <label for="journalEntry">What's on your mind?</label>
+        <input type="text" name="journalEntry"    id="journalEntry">
+    </div>
+  </fieldset>
+    <!-- insert button labeled "record journal entry" -->
+<button type="button">Record Journal Entry</button>
+
+
+
+</form>
+</article>
+<footer class="footer">
+    <div id="footer right">
+        <a href="https://github.com/skgilmore">Visit my GitHub</a>
+    </div>
+    <div id="footer left">
+        <div class="my copyright">&COPY;Stephanie Gilmore 2020</div>
+    </div>
+</footer>
+</div>
+</div>
+</main>
+</body>
+</html>
