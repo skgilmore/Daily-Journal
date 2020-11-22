@@ -10,13 +10,17 @@
 
 <header>
 
+    <article class= "container header"> 
+
 <h1>Daily Journal</h1>
-<div><img src="./images/logo.png" alt="logo"></div>
+<div style="logo"><img src="./images/logo.png" alt="logo"></div>
+</article>
 
 </header>
 <body>
 <main class="content">
     <article class="journal">
+        <section class="date">
     <!-- Form Collector -->
     <form action="action.page">
     
@@ -25,6 +29,7 @@
     
     <label for="journalDate">Entry Date:</label>
     <input type="date" value="2020-11-01">
+</section>
 </fieldset>
 <fieldset>
     <!--insert text box-->
@@ -34,7 +39,7 @@
 
     <!-- insert text area -->
     <!-- insert mood w/ options box -->
-    <div class="moodSelector">
+    <div class="mood">
     <fieldset>
         <label for="moodSelection">Current Mood</label>
         <select name="name" id="mood">
@@ -57,20 +62,35 @@
     <!-- insert button labeled "record journal entry" -->
 <button type="button">Record Journal Entry</button>
 
+<!-- create div to append journal entries to -->
+<div id="journalEntries">
+
+    <!-- journal entries will append here -->
+</div>
+
 
 
 </form>
+</main>
 </article>
+</body>
+
+
+
+
+<script type="module" src="./scripts/main.js"></script>
+<article class="footer">
+    <section class="footer">
 <footer class="footer">
     <div id="footer right">
         <a href="https://github.com/skgilmore">Visit my GitHub</a>
     </div>
     <div id="footer left">
         <div class="my copyright">&COPY;Stephanie Gilmore 2020</div>
+    </section>
     </div>
+</article>
 </footer>
-</div>
-</div>
-</main>
-</body>
+
+
 </html>

@@ -1,16 +1,27 @@
 h1 {
     color: palevioletred;
+    display: flex;
+    justify-content: center;
+    font-size: 3.5em;
+    background-color: lightsteelblue;
 }
 fieldset {
     display: flex;
     flex-direction: column;
 
 }
+div  {     
+    display: flex;
+    justify-content: center;
+    background-color: lightgoldenrodyellow;
+}
 .mood {
     display: flex;
     flex-direction: column;
 }
-footer {
-    position: absolute;
-    bottom: 0;
+body {
+    color: lightslategray;
+}
+header{
+    color:  lightskyblue;
 }
